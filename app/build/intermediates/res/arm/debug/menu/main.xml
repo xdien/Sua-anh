@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/action_settings"
+    android:title="Cai dat"/>
+    <item android:title="Open"
+        android:id="@+id/getPath"/>
+    <item android:id="@+id/save"
+        android:title="Save"/>
+    <item
+        android:id="@+id/item1"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Launch Camera"/>
+    <item
+        android:id="@+id/item2"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="SaveTung"/>
+</menu><!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/menu/main.xml -->

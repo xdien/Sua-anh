@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_xoay</item>
+        <item>@drawable/ic_pdfexport</item>
+    </array>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Hiệu ứng</item>
+        <item>Mờ ảnh</item>
+        <item>Ảnh Đen/Trắng</item>
+        <item>Vẽ</item>
+        <item>Cut</item>
+        <item>Xoay</item>
+        <item>Export PDF</item>
+    </string-array>
+    <!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/values/color.xml -->
+    <eat-comment />
+
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="list_item_title">#fff</color>
+    <!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/ImageEdit/openCVLibrary2410/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="CameraBridgeViewBase">
+        <attr name="show_fps" format="boolean" />
+        <attr name="camera_id" format="integer">
+            <enum name="any" value="-1" />
+            <enum name="back" value="99" />
+            <enum name="front" value="98" />
+        </attr>
+    </declare-styleable>
+    <!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/com.larswerkman/HoloColorPicker/1.4/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ColorBars">
+        <attr name="bar_thickness" format="dimension" />
+        <attr name="bar_length" format="dimension" />
+        <attr name="bar_pointer_radius" format="dimension" />
+        <attr name="bar_pointer_halo_radius" format="dimension" />
+        <attr name="bar_orientation_horizontal" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ColorPicker">
+        <attr name="color_wheel_radius" format="dimension" />
+        <attr name="color_wheel_thickness" format="dimension" />
+        <attr name="color_center_radius" format="dimension" />
+        <attr name="color_center_halo_radius" format="dimension" />
+        <attr name="color_pointer_radius" format="dimension" />
+        <attr name="color_pointer_halo_radius" format="dimension" />
+    </declare-styleable>
+    <!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/com.larswerkman/HoloColorPicker/1.4/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="bar_length">240dp</dimen>
+    <dimen name="bar_pointer_halo_radius">14dp</dimen>
+    <dimen name="bar_pointer_radius">6dp</dimen>
+    <dimen name="bar_thickness">4dp</dimen>
+    <dimen name="color_center_halo_radius">60dp</dimen>
+    <dimen name="color_center_radius">54dp</dimen>
+    <dimen name="color_pointer_halo_radius">18dp</dimen>
+    <dimen name="color_pointer_radius">14dp</dimen>
+    <dimen name="color_wheel_radius">124dp</dimen>
+    <dimen name="color_wheel_thickness">8dp</dimen>
+    <!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Image Edit</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

@@ -1,0 +1,93 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "20.0.0"
+    sourceSets {
+        main {
+            jni.srcDirs = []
+            jniLibs.srcDir 'libs'
+        }
+    }
+    packagingOptions {
+        exclude 'lib/armeabi/libTest.so'
+        exclude 'lib/armeabi/libjniEffects.so'
+    }
+    defaultConfig {
+        applicationId "com.crazy.xdien.imageedit"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        ndk{
+            abiFilter "armeabi-v7a"
+            moduleName "jniOpenCV"
+            cFlags " -mfloat-abi=softfp -fexceptions -D_DEBUG -frtti"
+            //cFlags "-DANDROID_NDK -D_DEBUG -std=c99 -I${project.buildDir}/../src/main/jni/inc"   // Define some macros
+            ldLibs "dl" , "log", "tbb"  // Link with these libraries!
+            stl "gnustl_static"                    //"stlport_shared" Use shared stlport library
+        }
+    }
+    productFlavors {
+        x86 {
+            ndk {
+                abiFilter "x86"
+            }
+            minSdkVersion 15
+            targetSdkVersion 21
+        }
+        arm {
+            ndk {
+                abiFilter "armeabi"
+            }
+        }
+        mips {
+            ndk {
+                abiFilter "mips"
+            }
+        }
+        armv7a {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+            minSdkVersion 15
+            targetSdkVersion 21
+        }
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            jniDebugBuild true
+        }
+        debug {
+            jniDebugBuild true
+        }
+    }
+    //build manual android.mk
+    task ndkBuild(type: Exec) {
+        commandLine 'ndk-build', '-C', file('jni').absolutePath
+    }
+    task ndkLibsToJar(type: Zip, dependsOn: 'ndkBuild', description: 'Create a JAR of the native libs') {
+        destinationDir new File(buildDir, '../libs')
+        baseName 'ndk-libs'
+        extension 'jar'
+        from(new File(buildDir, '../libs')) { include '**/*.so' }
+        into 'lib/'
+    }
+    tasks.withType(Compile) {
+        compileTask -> compileTask.dependsOn ndkLibsToJar
+    }
+    /*tasks.withType(Compile) {
+        compileTask -> compileTask.dependsOn ndkBuild
+    }*/
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:20.0.+'
+    compile 'it.sephiroth.android.library.imagezoom:imagezoom:+'
+    compile 'com.larswerkman:HoloColorPicker:1.+'
+    compile fileTree(include: ['*.jar', '.h'], dir: 'libs')
+    compile project(':openCVLibrary2410')
+    compile files('src/main/libs/itextpdf-5.5.3.jar')
+}

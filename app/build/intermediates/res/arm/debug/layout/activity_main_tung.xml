@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context=".Main">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:id="@+id/buttonSave"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffff0f17" />
+
+    <TextView
+        android:layout_width="141dp"
+        android:layout_height="100dp"
+        android:text="New Text"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SelectPhoTo"
+        android:id="@+id/btnSelectPhoTo"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff8850ff"
+        android:layout_weight="0.19" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ViewImage"
+        android:layout_weight="0.62"
+        android:src="@drawable/ic_photography" />
+</LinearLayout><!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/activity_main_tung.xml -->

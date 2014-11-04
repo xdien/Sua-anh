@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="unspecified" >
+        <source path="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/ImageEdit/openCVLibrary2410/unspecified/res" >
+            <file
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/ImageEdit/openCVLibrary2410/unspecified/res/values/values.xml"
+                qualifiers="" >
+                <declare-styleable name="CameraBridgeViewBase" >
+                    <attr
+                        name="show_fps"
+                        format="boolean" />
+                    <attr
+                        name="camera_id"
+                        format="integer" >
+                        <enum
+                            name="any"
+                            value="-1" />
+                        <enum
+                            name="back"
+                            value="99" />
+                        <enum
+                            name="front"
+                            value="98" />
+                    </attr>
+                </declare-styleable>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="1.4" >
+        <source path="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/com.larswerkman/HoloColorPicker/1.4/res" >
+            <file
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/com.larswerkman/HoloColorPicker/1.4/res/values/values.xml"
+                qualifiers="" >
+                <dimen name="color_pointer_halo_radius" >18dp
+                </dimen>
+                <dimen name="color_center_halo_radius" >60dp
+                </dimen>
+                <dimen name="color_pointer_radius" >14dp
+                </dimen>
+
+                <declare-styleable name="ColorPicker" >
+                    <attr
+                        name="color_wheel_radius"
+                        format="dimension" />
+                    <attr
+                        name="color_wheel_thickness"
+                        format="dimension" />
+                    <attr
+                        name="color_center_radius"
+                        format="dimension" />
+                    <attr
+                        name="color_center_halo_radius"
+                        format="dimension" />
+                    <attr
+                        name="color_pointer_radius"
+                        format="dimension" />
+                    <attr
+                        name="color_pointer_halo_radius"
+                        format="dimension" />
+                </declare-styleable>
+
+                <dimen name="bar_length" >240dp
+                </dimen>
+                <dimen name="bar_pointer_halo_radius" >14dp
+                </dimen>
+                <dimen name="bar_thickness" >4dp
+                </dimen>
+                <dimen name="color_wheel_radius" >124dp
+                </dimen>
+                <dimen name="color_wheel_thickness" >8dp
+                </dimen>
+                <dimen name="bar_pointer_radius" >6dp
+                </dimen>
+                <dimen name="color_center_radius" >54dp
+                </dimen>
+
+                <declare-styleable name="ColorBars" >
+                    <attr
+                        name="bar_thickness"
+                        format="dimension" />
+                    <attr
+                        name="bar_length"
+                        format="dimension" />
+                    <attr
+                        name="bar_pointer_radius"
+                        format="dimension" />
+                    <attr
+                        name="bar_pointer_halo_radius"
+                        format="dimension" />
+                    <attr
+                        name="bar_orientation_horizontal"
+                        format="boolean" />
+                </declare-styleable>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="2.1.1" >
+        <source path="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/it.sephiroth.android.library.imagezoom/imagezoom/2.1.1/res" />
+    </dataSet>
+    <dataSet config="20.0.0" >
+        <source path="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res" >
+            <file
+                name="counter_bg"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable/counter_bg.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_bg_normal"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable/list_item_bg_normal.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_bg_pressed"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable/list_item_bg_pressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable/list_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_communities"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_communities.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_drawer.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_handdrag"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_handdrag.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_handle"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_handle.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_home"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_home.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pages"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_pages.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pdfexport"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_pdfexport.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_people"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_people.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_photography"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_photography.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_photos"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_photos.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_rectange"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_rectange.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_text"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_text.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_whats_hot"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_whats_hot.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_communities"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_communities.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_drawer.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_handdrag"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_handdrag.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_handle"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_handle.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_home"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_home.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pages"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_pages.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pdfexport"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_pdfexport.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_people"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_people.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_photography"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_photography.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_photos"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_photos.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_rectange"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_rectange.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_text"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_text.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_whats_hot"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_whats_hot.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_communities"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_communities.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_drawer.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_handdrag"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_handdrag.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_handle"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_handle.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_home"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_home.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pages"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_pages.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pdfexport"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_pdfexport.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_people"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_people.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_photography"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_photography.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_photos"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_photos.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_rectange"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_rectange.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_text"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_text.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_whats_hot"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_whats_hot.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_communities"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_communities.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_drawer.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_handdrag"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_handdrag.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_handle"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_handle.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_home"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_home.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pages"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_pages.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_pdfexport"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_pdfexport.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_people"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_people.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_photography"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_photography.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_photos"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_photos.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_rectange"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_rectange.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_text"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_text.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_whats_hot"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_whats_hot.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main_tung"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/activity_main_tung.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_tung"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/activity_tung.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="alert_dialog"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/alert_dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="alertdiolog"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/alertdiolog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_color_pick"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/dialog_color_pick.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="drawer_list_item"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/drawer_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_cut"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/fragment_cut.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_draw"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/fragment_draw.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_effects"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/fragment_effects.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_home"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/fragment_home.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_inserttext"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/fragment_inserttext.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_rotate"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/fragment_rotate.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_smoothing"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/fragment_smoothing.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_threshold"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/fragment_threshold.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="full_image"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/full_image.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="galleryitem"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/galleryitem.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="grid_layout"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/grid_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="photography"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/photography.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="popup"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/popup.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="popup_tung"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/popup_tung.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="rotation"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/rotation.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="select"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/select.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="test"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/test.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="smoothing"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/menu/smoothing.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/values/color.xml"
+                qualifiers="" >
+                <color name="list_item_title" >#fff
+                </color>
+                <color name="list_background_pressed" >#992416
+                </color>
+                <color name="counter_text_bg" >#626262
+                </color>
+                <color name="list_background" >#303030
+                </color>
+                <color name="counter_text_color" >#c5c4c4
+                </color>
+                <color name="list_divider" >#272727
+                </color>
+            </file>
+            <file
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="drawer_close" >Slider Menu Closed
+                </string>
+                <string name="app_name" >Image Edit
+                </string>
+
+                <array name="nav_drawer_icons" >
+                    <item>
+@drawable/ic_home
+                    </item>
+                    <item>
+@drawable/ic_people
+                    </item>
+                    <item>
+@drawable/ic_photos
+                    </item>
+                    <item>
+@drawable/ic_communities
+                    </item>
+                    <item>
+@drawable/ic_pages
+                    </item>
+                    <item>
+@drawable/ic_whats_hot
+                    </item>
+                    <item>
+@drawable/ic_xoay
+                    </item>
+                    <item>
+@drawable/ic_pdfexport
+                    </item>
+                </array>
+
+                <string name="desc_list_item_icon" >Item Icon
+                </string>
+
+                <string-array name="nav_drawer_items" >
+                    <item>
+Home
+                    </item>
+                    <item>
+Hiệu ứng
+                    </item>
+                    <item>
+Mờ ảnh
+                    </item>
+                    <item>
+Ảnh Đen/Trắng
+                    </item>
+                    <item>
+Vẽ
+                    </item>
+                    <item>
+Cut
+                    </item>
+                    <item>
+Xoay
+                    </item>
+                    <item>
+Export PDF
+                    </item>
+                </string-array>
+
+                <string name="drawer_open" >Slider Menu Opened
+                </string>
+            </file>
+            <file
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                name="ic_xoay"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xhdpi/ic_xoay.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_xoay"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-mdpi/ic_xoay.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_xoay"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-xxhdpi/ic_xoay.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_xoay"
+                path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/drawable-hdpi/ic_xoay.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+        </source>
+        <source path="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/generated/res/rs/arm/debug" />
+        <source path="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/generated/res/generated/arm/debug" />
+    </dataSet>
+    <dataSet config="arm" >
+        <source path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/arm/res" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/debug/res" />
+    </dataSet>
+    <dataSet config="armDebug" >
+        <source path="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/armDebug/res" />
+    </dataSet>
+
+</merger>

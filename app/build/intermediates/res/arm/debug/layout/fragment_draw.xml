@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true">
+
+        <view
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            class="com.crazy.xdien.imageedit.sliding.draw_.DrawRectView"
+            android:id="@+id/view_fragmentDraw"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_rect"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/imageButton_colorPick"
+            android:layout_toRightOf="@+id/imageButton_colorPick"
+            android:src="@drawable/ic_rectange"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_insertText"
+            android:src="@drawable/ic_text"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|bottom" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_colorPick"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/imageButton_insertText"
+            android:layout_gravity="left|bottom"
+            android:src="@drawable/ic_handdrag" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="undo"
+            android:id="@+id/button_undoDraw"
+            android:layout_gravity="right|top" />
+
+    </FrameLayout>
+
+</RelativeLayout><!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/fragment_draw.xml -->

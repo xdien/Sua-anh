@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/hieuUng1"
+        android:title="Hieu ung 1"/>
+
+</menu><!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/menu/smoothing.xml -->

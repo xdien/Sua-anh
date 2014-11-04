@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:id="@+id/buttonCEN"
+        android:textColor="#ff2a1961"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/buttonOK"
+        android:textColor="#ff5c1a19"
+        android:layout_above="@+id/scale"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:id="@+id/scale"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonCEN"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignBottom="@+id/scale"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_margin="5px"
+            >
+            <TextView
+                android:id="@+id/textskewx"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textSize="10px"
+                android:text="Skew-X: 0"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_margin="5px"
+            >
+            <TextView
+                android:id="@+id/textskewy"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textSize="10px"
+                android:text="Skew-Y: 0"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/skewx"
+        android:layout_alignEnd="@+id/skewx"
+        android:layout_below="@+id/skewx" />
+
+    <SeekBar
+        android:id="@+id/skewx"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:max="200"
+        android:progress="100"
+        android:layout_below="@+id/skewy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:id="@+id/skewy"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:max="200"
+        android:progress="100"
+        android:layout_below="@+id/rotate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:id="@+id/rotate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="360"
+        android:progress="0"
+        android:layout_weight="1"
+        android:layout_below="@+id/scale"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rename"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/scale"
+        android:layout_toLeftOf="@+id/buttonOK"
+        android:layout_toStartOf="@+id/buttonOK"
+        android:layout_toRightOf="@+id/buttonCEN"
+        android:layout_toEndOf="@+id/buttonCEN"
+        android:textColor="#ffff8d1a" />
+
+</RelativeLayout><!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/rotation.xml -->

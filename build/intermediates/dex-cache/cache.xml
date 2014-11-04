@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/pre-dexed/arm/debug/internal_impl-20.0.0-726e6b85c82c4a1ac4b06521b4772a8d9dabf217.jar"
+        jar="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/pre-dexed/arm/debug/classes-d6adc1f5e050c0bbce5758be2b7aecdc250573de.jar"
+        jar="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/it.sephiroth.android.library.imagezoom/imagezoom/2.1.1/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8fbd4390c086423b591596e4b04a03e0e59b9397"/>
+    <item
+        dex="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/pre-dexed/arm/debug/ndk-libs-b299ab3308d8fae7eec1f551a4e832e2708f922d.jar"
+        jar="/home/xdien/AndroidStudioProjects/ImageEdit/app/libs/ndk-libs.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f85cd993c86a99cad30c6eae4d74569bb7d7ca9f"/>
+    <item
+        dex="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/pre-dexed/arm/debug/itextpdf-5.5.3-e45cb5ad8e095c8c4b292d5a624bf09993828792.jar"
+        jar="/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/libs/itextpdf-5.5.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ea94efc32c51c0c6c2965d58597fa2dcffc4645c"/>
+    <item
+        dex="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/pre-dexed/arm/debug/classes-9ad0638194185ce680aebd133d6256a0a86b38f2.jar"
+        jar="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/com.larswerkman/HoloColorPicker/1.4/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5d5a825cbf0f67237377034c2c4edf9ba7e60fbe"/>
+    <item
+        dex="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/pre-dexed/arm/debug/classes-0e451171c60a4b3742fdbc7ff8ed0ae51c66ec94.jar"
+        jar="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/pre-dexed/arm/debug/support-annotations-20.0.0-dfd0dbfa8e6f4d16029c79d603ac60cd5adf8140.jar"
+        jar="/opt/android-sdk-update-manager/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/pre-dexed/arm/debug/library-2.4.0-bd822058e0e85f208bcb2a834b34b727c40fcd47.jar"
+        jar="/home/xdien/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb"/>
+    <item
+        dex="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/pre-dexed/arm/debug/classes-b7cbf8751f7842bebac5a996ddd67312c322db92.jar"
+        jar="/home/xdien/AndroidStudioProjects/ImageEdit/app/build/intermediates/exploded-aar/ImageEdit/openCVLibrary2410/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c62ec40b3ef5935ab93ef0088b90c8b748070e53"/>
+
+</pre-dex-items>
