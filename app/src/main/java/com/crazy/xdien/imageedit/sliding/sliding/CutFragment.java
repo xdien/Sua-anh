@@ -100,7 +100,7 @@ public class CutFragment extends Fragment {
                 drec.setOnUpCallback(null);
                 //khong su dung clone object truoc = object sautu thay doi
                 topLeft.x = Math.min(drec.tstart.x, drec.tam.x);
-                topLeft.x = Math.min(drec.tstart.y, drec.tam.y);
+                topLeft.y = Math.min(drec.tstart.y, drec.tam.y);
                 width = (int)Math.abs(drec.tstart.x - drec.tam.x);
                 height = (int)Math.abs(drec.tstart.y - drec.tam.y);
                 if(width > 0 && height >0)
@@ -130,7 +130,7 @@ public class CutFragment extends Fragment {
                         e.printStackTrace();
                     }
                     temObj.addNext(temObj.topLeft, topLeft.clone(),width,height);
-                    croppedBitmap = Bitmap.createBitmap(myThumbnail, (int) temObj.topLeft.x, (int) temObj.topLeft.y, width, height);
+                    croppedBitmap = Bitmap.createBitmap(myThumbnail, (int) temObj.topLeft.x, (int) temObj.topLeft.y, temObj.width, temObj.height);
                     Utils.bitmapToMat(croppedBitmap,matTemp);
                     bmtemp = Bitmap.createBitmap(croppedBitmap);
                     CrazyActivity.main_ImageView.setImageBitmap(croppedBitmap);

@@ -28,4 +28,4 @@
         android:id="@+id/buttonCenDialogPick"
         android:layout_alignBottom="@+id/button_okDialogPick"
         android:layout_alignLeft="@+id/view_color_picker" />
-</RelativeLayout><!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/dialog_color_pick.xml -->
+</RelativeLayout><!-- From: file:/home/xdien/AndroidStudioProjects/Sua-anh/app/src/main/res/layout/dialog_color_pick.xml -->

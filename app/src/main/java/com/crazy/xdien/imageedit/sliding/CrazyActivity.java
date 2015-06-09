@@ -7,8 +7,11 @@ import java.util.ArrayList;
 
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
@@ -29,12 +32,14 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import com.crazy.xdien.imageedit.R;
 import com.crazy.xdien.imageedit.sliding.ImageCache.BitmapLruCache;
 import com.crazy.xdien.imageedit.sliding.Objects_.EportPdfFragment;
+import com.crazy.xdien.imageedit.sliding.Objects_.SaveToFile;
 import com.crazy.xdien.imageedit.sliding.sliding.CutFragment;
 import com.crazy.xdien.imageedit.sliding.sliding.DrawFragment;
 import com.crazy.xdien.imageedit.sliding.sliding.EffectFragment;
@@ -68,6 +73,7 @@ public class CrazyActivity extends Activity {
     public static Point kq;
     public static float[] eventXY;
     public static Matrix invertMatrix;
+    public static String fileName;
     public boolean chooseIamge;//kiem tra xem da chon file anh chua
 
     // nav drawer title
@@ -229,6 +235,7 @@ public class CrazyActivity extends Activity {
                 //saveImage(thumbnail,picturePath);
                 openFolder();
                 return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -276,10 +283,30 @@ public class CrazyActivity extends Activity {
     }
     public void openFolder()
     {
-        Intent intent = new Intent(Intent.ACTION_GET_CONTENT,android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-        Uri uri = Uri.parse(Environment.getExternalStorageDirectory().getPath());
-        intent.setDataAndType(uri, "inode/directory");
-        startActivity(Intent.createChooser(intent, "Open folder"));
+        final Context context = CrazyActivity.this;
+        AlertDialog.Builder alert = new AlertDialog.Builder(context);
+        alert.setTitle("Dat ten");
+        alert.setMessage("Enter The Name");
+
+        final EditText input = new EditText(context);
+        alert.setView(input);
+
+
+        alert.setPositiveButton("Save", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+                String srt = input.getEditableText().toString();
+                fileName = picturePath.substring(picturePath.lastIndexOf("/") + 1);
+                SaveToFile.SaveBitmap("/mnt/sdcard/"+srt+".bmp", bmCache.getBitmap(picturePath));
+            }
+        });
+        alert.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+
+                dialog.cancel();
+            }
+        });
+        AlertDialog alertDialog = alert.create();
+        alertDialog.show();
     }
     private void saveImage(Bitmap inputToSave, String name)
     {
@@ -353,12 +380,12 @@ public class CrazyActivity extends Activity {
                     }
                     break;
                 case 4:
-                    if(!chooseIamge) {
+                    if(!2chooseIamge) {
 
                         Toast.makeText(this, "Ban hay chon mot anh truoc khi dung chuc nang nay.", Toast.LENGTH_LONG).show();
                     }
                     else {
-                        fragment = new DrawFragment();
+                //        fragment = new DrawFragment();
                     }
                     break;
                 case 5:

@@ -3,26 +3,20 @@ include $(CLEAR_VARS)
 OPENCV_LIB_TYPE := STATIC
 OPENCV_INSTALL_MODULES := off
 OPENCV_CAMERA_MODULES := off
-include ../../../OpenCV-2.4.10-android-sdk/sdk/native/jni/OpenCV.mk
+
+include /home/xdien/android/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
+
 LOCAL_MODULE := jniEffects
 LOCAL_CFLAGS :=  -mfloat-abi=softfp -fexceptions -D_DEBUG -frtti
-LOCAL_LDLIBS += \
-        -ldl \
-        -llog \
-        -lz -l/home/xdien/AndroidStudioProjects/OpenCV-2.4.10-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libtbb.a \
-        -l/home/xdien/AndroidStudioProjects/OpenCV-2.4.10-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibpng.a \
-        -l/home/xdien/AndroidStudioProjects/OpenCV-2.4.10-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibjpeg.a \
-        -l/home/xdien/AndroidStudioProjects/OpenCV-2.4.10-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibtiff.a \
-        -l/home/xdien/AndroidStudioProjects/OpenCV-2.4.10-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibjasper.a \
-        -l/home/xdien/AndroidStudioProjects/OpenCV-2.4.10-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libIlmImf.a
+LOCAL_LDLIBS += -ldl -llog\
+        -lz -l/home/xdien/android/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libtbb.a
 
-LOCAL_SRC_FILES := \
-        /home/xdien/AndroidStudioProjects/ImageEdit/app/jni/JniEffects.cpp
+LOCAL_SRC_FILES := JniEffects.cpp
 
-LOCAL_C_INCLUDES += /home/xdien/AndroidStudioProjects/ImageEdit/app/jni
-LOCAL_C_INCLUDES += /home/xdien/AndroidStudioProjects/ImageEdit/app/src/arm/jni
-LOCAL_C_INCLUDES += /home/xdien/AndroidStudioProjects/ImageEdit/app/src/debug/jni
-LOCAL_C_INCLUDES += /home/xdien/AndroidStudioProjects/ImageEdit/app/src/armDebug/jni
+LOCAL_C_INCLUDES += /home/xdien/AndroidStudioProjects/Sua-anh/app/jni
+LOCAL_C_INCLUDES += /home/xdien/AndroidStudioProjects/Sua-anh/app/src/arm/jni
+LOCAL_C_INCLUDES += /home/xdien/AndroidStudioProjects/Sua-anh/app/src/debug/jni
+LOCAL_C_INCLUDES += /home/xdien/AndroidStudioProjects/Sua-anh/app/src/armDebug/jni
 
 LOCAL_STATIC_LIBRARIES := stdc++
 LOCAL_STATIC_LIBRARIES += libopencv_contrib libopencv_legacy libopencv_ml libopencv_stitching libopencv_nonfree libopencv_objdetect \
@@ -41,7 +35,7 @@ LOCAL_ARM_MODE := arm
 # Library Name
 LOCAL_MODULE := Test
 # Set All SRC_FILES Together
-SRC_FILES := $(wildcard $(LOCAL_PATH)/FooMain/src/*.cpp)
+#SRC_FILES := $(wildcard $(LOCAL_PATH)/FooMain/src/*.cpp)
 #SRC_FILES := $(SRC_FILES:$(LOCAL_PATH)/%=%)
 LOCAL_SRC_FILES = $(SRC_FILES)
 LOCAL_SHARED_LIBRARIES := libFooSecondary

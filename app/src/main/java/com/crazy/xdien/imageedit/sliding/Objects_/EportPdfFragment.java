@@ -131,7 +131,7 @@ public class EportPdfFragment extends Activity {
         Save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent MyImageExample = new Intent(EportPdfFragment.this, SaveToFilePdf.class);
+                Intent MyImageExample = new Intent(EportPdfFragment.this, SaveToFile.class);
                 MyImageExample.putExtra("duongdan", danhsach);
                 MyImageExample.putExtra("soluong",soluonganh);
                 MyImageExample.putExtra("mylist",danhsachgiatri);

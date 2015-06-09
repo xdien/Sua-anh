@@ -18,9 +18,9 @@
         android:longClickable="false"
         android:singleLine="false"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+
         android:layout_alignParentTop="true" />
 
     <Button
@@ -30,10 +30,10 @@
         android:id="@+id/button2"
         android:textColor="#ffc221ff"
         android:layout_toRightOf="@+id/buttonShow"
-        android:layout_toEndOf="@+id/buttonShow"
+
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+         />
 
     <Button
         android:layout_width="150dp"
@@ -42,8 +42,7 @@
         android:id="@+id/buttonShow"
         android:textColor="#ffff2137"
         android:layout_alignTop="@+id/button2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+         />
 
     <GridView
         android:id="@+id/gridview"

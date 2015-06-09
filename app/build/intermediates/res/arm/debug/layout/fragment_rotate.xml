@@ -16,4 +16,4 @@
             android:max="360"
             android:indeterminate="false" />
     </FrameLayout>
-</LinearLayout><!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/fragment_rotate.xml -->
+</LinearLayout><!-- From: file:/home/xdien/AndroidStudioProjects/Sua-anh/app/src/main/res/layout/fragment_rotate.xml -->

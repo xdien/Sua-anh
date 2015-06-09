@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "20.0.0"
+    compileSdkVersion 15
+    buildToolsVersion '20.0.0'
     sourceSets {
         main {
             jni.srcDirs = []
@@ -34,48 +34,45 @@ android {
                 abiFilter "x86"
             }
             minSdkVersion 15
-            targetSdkVersion 21
+            targetSdkVersion 15
         }
         arm {
             ndk {
                 abiFilter "armeabi"
             }
-        }
-        mips {
-            ndk {
-                abiFilter "mips"
-            }
+            minSdkVersion 15
+            targetSdkVersion 15
         }
         armv7a {
             ndk {
                 abiFilter "armeabi-v7a"
             }
             minSdkVersion 15
-            targetSdkVersion 21
+            targetSdkVersion 15
         }
     }
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            jniDebugBuild true
+            jniDebuggable true
         }
         debug {
-            jniDebugBuild true
+            jniDebuggable true
         }
     }
-    //build manual android.mk
+    //build manual android.mks
     task ndkBuild(type: Exec) {
-        commandLine 'ndk-build', '-C', file('jni').absolutePath
+        commandLine '/opt/android-ndk/ndk-build', '-C', file('jni').absolutePath
     }
     task ndkLibsToJar(type: Zip, dependsOn: 'ndkBuild', description: 'Create a JAR of the native libs') {
-        destinationDir new File(buildDir, '../libs')
+        destinationDir new File(buildDir, '..\\libs')
         baseName 'ndk-libs'
         extension 'jar'
-        from(new File(buildDir, '../libs')) { include '**/*.so' }
+        from(new File(buildDir, '..\\libs')) { include '**\\*.so' }
         into 'lib/'
     }
-    tasks.withType(Compile) {
+    tasks.withType(JavaCompile) {
         compileTask -> compileTask.dependsOn ndkLibsToJar
     }
     /*tasks.withType(Compile) {
@@ -84,9 +81,9 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:20.0.+'
-    compile 'it.sephiroth.android.library.imagezoom:imagezoom:+'
-    compile 'com.larswerkman:HoloColorPicker:1.+'
+    compile 'com.android.support:support-v4:21.0.+'
+    //compile 'it.sephiroth.android.library.imagezoom:imagezoom:+'
+    //compile 'com.larswerkman:HoloColorPicker:1.5'
     compile fileTree(include: ['*.jar', '.h'], dir: 'libs')
     compile project(':openCVLibrary2410')
     compile files('src/main/libs/itextpdf-5.5.3.jar')

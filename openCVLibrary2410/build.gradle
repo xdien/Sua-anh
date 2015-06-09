@@ -1,19 +1,19 @@
 apply plugin: 'com.android.library'
 android {
-    compileSdkVersion 21
+    compileSdkVersion 15
     buildToolsVersion '20.0.0'
-
     defaultConfig {
-        applicationId "org.opencv"
+        //applicationId "org.opencv"
         minSdkVersion 8
-        targetSdkVersion 8
+        targetSdkVersion 15
     }
-
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    }
+    productFlavors {
     }
 }
 

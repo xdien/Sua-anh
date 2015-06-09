@@ -37,4 +37,4 @@
         android:id="@+id/ViewImage"
         android:layout_weight="0.62"
         android:src="@drawable/ic_photography" />
-</LinearLayout><!-- From: file:/home/xdien/AndroidStudioProjects/ImageEdit/app/src/main/res/layout/activity_main_tung.xml -->
+</LinearLayout><!-- From: file:/home/xdien/AndroidStudioProjects/Sua-anh/app/src/main/res/layout/activity_main_tung.xml -->
