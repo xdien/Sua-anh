@@ -23,7 +23,7 @@ LOCAL_STATIC_LIBRARIES += libopencv_contrib libopencv_legacy libopencv_ml libope
     libopencv_videostab libopencv_calib3d libopencv_photo libopencv_video \
     libopencv_features2d libopencv_highgui libopencv_androidcamera libopencv_flann \
     libopencv_imgproc libopencv_ts libopencv_core
-include $(BUILD_SHARED_LIBRARY)
+include $(LOCAL_SHARED_LIBRARY)
 
 # Foo Secondary lib:
 

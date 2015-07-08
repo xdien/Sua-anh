@@ -84,7 +84,7 @@ dependencies {
     compile 'com.android.support:support-v4:21.0.+'
     //compile 'it.sephiroth.android.library.imagezoom:imagezoom:+'
     //compile 'com.larswerkman:HoloColorPicker:1.5'
-    compile fileTree(include: ['*.jar', '.h'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar', '.h'])
     compile project(':openCVLibrary2410')
     compile files('src/main/libs/itextpdf-5.5.3.jar')
 }

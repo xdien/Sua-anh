@@ -105,8 +105,7 @@ namespace com_crazy_xdien_imageedit_sliding_process_jniMatEffects{
       cvEqualizeHist( g, g );    //equalise g
       cvEqualizeHist( b, b );    //equalise b
       cvMerge(b, g, r, NULL, img0);
-      ra = Mat(img0).clone();
-
+      ra = Mat(cv::cvarrToMat(img0)).clone();
       //delete(img0);
             __android_log_print(ANDROID_LOG_DEBUG,"giai phong vung nho..","ok");
     }

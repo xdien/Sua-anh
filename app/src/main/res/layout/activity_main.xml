@@ -17,10 +17,9 @@
             android:layout_height="match_parent" >
 
 
-            <view
+            <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                class="it.sephiroth.android.library.imagezoom.ImageViewTouch"
                 android:id="@+id/main_imageView"
                 android:layout_gravity="center_horizontal|bottom" />
 

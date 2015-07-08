@@ -19,7 +19,6 @@ import com.crazy.xdien.imageedit.sliding.CrazyActivity;
 import com.crazy.xdien.imageedit.sliding.Objects_.ObjectDraw;
 import com.crazy.xdien.imageedit.sliding.draw_.DrawRectView;
 import com.crazy.xdien.imageedit.sliding.process.jniMatEffects;
-import com.larswerkman.holocolorpicker.ColorPicker;
 
 import org.opencv.android.Utils;
 import org.opencv.core.Mat;
@@ -96,7 +95,7 @@ public class DrawFragment extends Fragment {
 
     private void openColorPicker(final  Activity context, int oldcolor)
     {
-        final Dialog dialog = new Dialog(context);
+        /*final Dialog dialog = new Dialog(context);
         dialog.setTitle("Chon mau");
         dialog.setContentView(R.layout.dialog_color_pick);
         final Button ok = (Button) dialog.findViewById(R.id.button_okDialogPick);
@@ -124,7 +123,7 @@ public class DrawFragment extends Fragment {
                 dialog.dismiss();
             }
         });
-        dialog.show();
+        dialog.show();*/
     }
 
     // The method that displays the  for text input.

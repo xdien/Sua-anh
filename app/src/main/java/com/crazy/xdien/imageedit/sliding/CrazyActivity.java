@@ -33,6 +33,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -55,7 +56,7 @@ import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
 import org.opencv.core.Point;
-import it.sephiroth.android.library.imagezoom.ImageViewTouch;
+//import it.sephiroth.android.library.imagezoom.ImageViewTouch;
 
 public class CrazyActivity extends Activity {
     private DrawerLayout mDrawerLayout;
@@ -66,7 +67,7 @@ public class CrazyActivity extends Activity {
     public static Bitmap thumbnail;
     public static BitmapLruCache bmCache;
     public static String picturePath;
-    public static ImageViewTouch main_ImageView;
+    public static ImageView main_ImageView;
     private Button main_openfileImage;
     public  static float eventX,eventY;
     public static int x,y;
@@ -111,7 +112,7 @@ public class CrazyActivity extends Activity {
         //ActionBar actionBar = (ActionBar) findViewById(R.id.button);
         //khoi dong cho main_ImageView
         //Log.w("lay tu jni",getStringFromNative());
-        main_ImageView = (ImageViewTouch) findViewById(R.id.main_imageView);
+        main_ImageView = (ImageView) findViewById(R.id.main_imageView);
         bmCache = new BitmapLruCache();
         mTitle = mDrawerTitle = getTitle();
         chooseIamge = false;
@@ -380,7 +381,7 @@ public class CrazyActivity extends Activity {
                     }
                     break;
                 case 4:
-                    if(!2chooseIamge) {
+                    if(!chooseIamge) {
 
                         Toast.makeText(this, "Ban hay chon mot anh truoc khi dung chuc nang nay.", Toast.LENGTH_LONG).show();
                     }
